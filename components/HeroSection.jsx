@@ -14,12 +14,12 @@ const HeroSection = () => {
                 >
                     <h1 className="font-extrabold">
                         <span className="text-white text-8xl">
-                            Hello, I&apos;m{" "}
-                            <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                                Daniel
+                            Hi, I&apos;m{" "}
+                            <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+                                Zephrous
                             </span>
                         </span>
-                        <span className="text-7xl">
+                        <span className="text-6xl">
                             <TypeWritter
                                 options={{
                                     autoStart: true,
@@ -27,15 +27,14 @@ const HeroSection = () => {
                                 }}
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString('Web Developer')
-                                        .pauseFor(1500)
-                                        .deleteAll()
-                                        .typeString('Software Engineer')
-                                        .pauseFor(1500)
-                                        .deleteAll()
-                                        .start();
+                                    .typeString('<span style="color: #FF77FF">Web Developer</span>')
+                                    .pauseFor(1500)
+                                    .deleteAll()
+                                    .typeString('<span style="color: #9E7BFF">Software Engineer</span>')
+                                    .pauseFor(1500)
+                                    .deleteAll()
+                                    .start();
                                 }}
-
                             ></TypeWritter>
                         </span>
                     </h1>
