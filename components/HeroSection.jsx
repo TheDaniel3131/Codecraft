@@ -47,6 +47,16 @@ const HeroSection = () => {
                         </Link>
                     </h1>
                 </motion.div>
+                <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
+                    <div className="w-[400px] relative z-0">
+                        <img
+                            src="/HeroSection.png"
+                            alt="Hero Section"
+                            className="transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        >
+                        </img>
+                    </div>
+                </div>
             </div>
         </main>
     );
