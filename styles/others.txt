@@ -1,0 +1,15 @@
+/* Google web: let the scrollbar display none */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox, edge: let the scroll bar display none */
+::-webkit-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+
+
+
+

@@ -45,28 +45,26 @@ const projectData = [
     },
 
 ];
-
 const Project = () => {
-    return(
-        <div>
-            <div className="text-4xl font-semibold mb-8">
-                My Project
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-x-8 gap-y-4 h-full">
+    return (
+        <div id="projects">
+            <div className="text-4xl font-bold mb-8 ml-20 text-white">My Projects (In Progress)</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-x-16 gap-y-2 md:gap-8 h-full justify-end project-container max-w-fit mx-auto">
                 {projectData.map((project) => {
-                    return(
-                        <ProjectCard
-                            key={project.id}
-                            title={project.title}
-                            description={project.description}
-                            imgUrl={project.image}
-                            gitUrl={project.gitUrl}
-                        />
+                    return (
+                        <div key={project.id} className="mb-8">
+                            <ProjectCard
+                                title={project.title}
+                                description={project.description}
+                                imgUrl={project.image}
+                                gitUrl={project.gitUrl}
+                            />
+                        </div>
                     );
                 })}
             </div>
         </div>
     );
-}
+};
 
 export default Project;

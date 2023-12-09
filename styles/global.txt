@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  background-color: #0f0e2a;
+  border-radius: 0px; /* roundness of the scrollbar */
+  transition: border-radius 0.3s ease-in-out; /* smooth transition */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1c62a3;
+  border-radius: 0px; /* roundness of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #407cb4;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0f0e2a;
+  border-radius: 0px; /* roundness of the track */
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+  border-top-left-radius: 8px; /* top border radius when scrollbar is active */
+  border-top-right-radius: 8px; /* top border radius when scrollbar is active */
+  border-bottom-left-radius: 8px; /* bottom border radius when scrollbar is active */
+  border-bottom-right-radius: 8px; /* bottom border radius when scrollbar is active */
+}
+
+
+.scrolled-header {
+  background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent white background */
+  backdrop-filter: blur(35px); /* Apply a blur effect */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 640px) {
+  #contact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  footer .container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  /* Adjustments for medium-sized screens */
+  #contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  footer {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  footer .container {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  footer p {
+    font-size: 0.8125rem;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjustments for large screens */
+
+  #contact {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  footer .container {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  footer p {
+    font-size: 0.9375rem;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+}
+
+
+/* Medium-sized screens */
+@media (min-width: 640px) {
+  .md\\:text-lg {
+    font-size: 1.25rem;
+  }
+}
+
+/* Large screens */
+@media (min-width: 768px) {
+  .lg\\:text-xl {
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra-large screens */
+@media (min-width: 1024px) {
+  .xl\\:text-2xl {
+    font-size: 1.75rem;
+  }
+}
+
+/* Adjust image size for different screen sizes */
+.image-size {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .md\\:image-size {
+    max-width: 75%;
+  }
+
+  
+}
+
+@media (min-width: 768px) {
+  .lg\\:image-size {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .xl\\:image-size {
+    max-width: 50%;
+  }
+}
