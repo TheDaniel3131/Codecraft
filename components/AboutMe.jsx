@@ -1,6 +1,7 @@
 import React from "react";
 import { useTransition, useState } from "react";
 import TabButton from "./TabButton";
+import Image from "next/image";
 
 //1d
 const TAB_DATA = [
@@ -55,13 +56,19 @@ const AboutMe = () => {
     return(
         <section className="text-white grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
-                <div>
-                    <img src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
+               <div>
+                    <Image
+                        src="/AboutMe.png"
+                        alt="About Me"
+                        width={450}
+                        height={450}
+                        style={{ borderRadius: "25px" }}
+                    />
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Software Engineering at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
+                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Software Engineering at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I&apos;m skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
+                        Additionally, I&apos;ve ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
                         My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
