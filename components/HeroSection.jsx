@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 
 const HeroSection = () => {
     return (
-        <main className="py-16 mt-16 md:flex md:shrink-0" id="main"> 
+        <main className="py-22 mt-22 md:flex md:shrink-0" id="main"> 
             <video
                 autoPlay
                 muted

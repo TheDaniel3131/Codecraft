@@ -17,7 +17,7 @@ const achievementsList = [
 
 const Achievements = () => {
     return (
-        <div className="xl:gap-4 sm:py-4 xl:px-16 mb-20" id="achievements">
+        <div className="xl:gap-4 sm:py-4 xl:px-16 mb-20 mt-52" id="achievements">
             <h1 className="text-center text-5xl font-bold mb-16" style={{ letterSpacing: "0.05em" }}>
                 Achievements
             </h1>
