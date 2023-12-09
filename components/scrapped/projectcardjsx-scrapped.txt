@@ -1,0 +1,29 @@
+import React from 'react';
+import Link from 'next/link';
+import { CodeBracketIcon } from '@heroicons/react/24/outline';
+
+const ProjectCard = ({ imgUrl, gitUrl, title, description }) => {
+    return (
+        <div>
+            <div
+                className="h-52 rounded-t-xl relative center center bg-no-repeat"
+                style={{ background: `url(${imgUrl})`, backgroundSize: 'cover' }}>
+                <div className="overlay items-center justify-center top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:bg-opacity-80"></div>
+                <Link
+                    href={gitUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-[#4F46E5] transition duration-300 ease-in-out transform hover:scale-110 hover:rotate-12 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <CodeBracketIcon className="h-8 w-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE] hover:text-[#4F46E5] transition duration-300 ease-in-out group-hover/link:text-white cursor-pointer" />
+                </Link>
+            </div>
+
+            <div className="text-white">
+                <h5 className="font-semibold text-xl mb-2">{title}</h5>
+                <p className="text-base">{description}</p>
+            </div>
+        </div>
+    );
+};
+
+export default ProjectCard;

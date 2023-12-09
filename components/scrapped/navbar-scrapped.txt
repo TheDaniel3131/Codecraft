@@ -1,0 +1,36 @@
+import Link from 'next/link';
+
+const NavBar = () => {
+    return (
+        <nav className="bg-gray-950 p-6 md:grid-cols-12 relative z-10">
+            
+            <div className="container mx-auto flex justify-between items-center">
+                {/* Logo */}
+                <div className="text-white text-2xl font-bold">
+                    <Link href="/" passHref>
+                        Zephrous
+                    </Link>
+                </div>
+
+                {/* Navigation Links */}
+                <div className="space-x-20">
+                    <NavLink href="#main">Home</NavLink>
+                    <NavLink href="#aboutMe">About</NavLink>
+                    <NavLink href="#projects">Projects</NavLink>
+                    <NavLink href="#contact">Contact</NavLink>
+                </div>
+            </div>
+        </nav>
+    );
+};
+
+// NavLink component for each navigation link
+const NavLink = ({ href, children }) => {
+    return (
+        <Link href={href} passHref legacyBehavior>
+            <a className="text-white hover:text-gray-300 text-lg font-bold tracking-widest">{children}</a>
+        </Link>
+    );
+};
+
+export default NavBar;
