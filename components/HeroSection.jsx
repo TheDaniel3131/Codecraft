@@ -17,7 +17,7 @@ const HeroSection = () => {
           >
             <h1 className="font-extrabold">
               <span className="text-white text-8xl ">
-                Hello, I&apos;m{" "} {/* Escape the single quote */}
+                Hello, I&apos;m{" "} {/* Escape the single quote */}  
                 <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl h-14 bg-gradient-to-r from-sky-500 to-indigo-500">
                 Daniel Poh
                 </span>
@@ -34,13 +34,13 @@ const HeroSection = () => {
                     .typeString(`<span style="color:#00BFFF">Software Engineer</span>`)
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString(`<span style="color:#FF77FF">Full Stack Developer</span>`)
+                    .typeString(`<span style="color:#92C7CF">Full Stack Developer</span>`)
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString(`<span style="color:#00FF00">Graphic Designer</span>`)
+                    .typeString(`<span style="color:#D6CC99">Graphic Designer</span>`)
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString(`<span style="color:#00FF00">Content Creator</span>`)
+                    .typeString(`<span style="color:#F8E559">Content Creator</span>`)
                     .pauseFor(1500)
                     .deleteAll()
                     .typeString(`<span style="color:#00FF00">Chess Player</span>`)
@@ -56,7 +56,7 @@ const HeroSection = () => {
             </p>
               <Link
                 href="#projects" 
-                className="px-12 mt-8 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
+                className="px-12 mt-4 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
                 <span className="text-xl text-white font-bold">My Projects</span>
               </Link>
              
@@ -66,7 +66,7 @@ const HeroSection = () => {
                 <span className="text-xl text-white font-bold">Read My Resume</span>
               </Link>
           </motion.div>
-        <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
+        <div className="col-span-4 md:col-span-4 place-self-center lg:mt-5 pt-0 lg:pt-5">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
