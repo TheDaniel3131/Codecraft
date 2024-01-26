@@ -67,7 +67,7 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">Hey, I'm Daniel, a software engineering student by day and a relentless self-learner by night. Crafting innovative solutions during the day, my nights are dedicated to pushing the boundaries of my development skills. Always up for a challenge, I thrive on continual growth and evolution.</p>
+                    <p className="text-base text-justify lg:text-lg">Hey, I am Daniel, a software engineering student by day and a relentless self-learner by night. Crafting innovative solutions during the day, my nights are dedicated to pushing the boundaries of my development skills. Always up for a challenge, I thrive on continual growth and evolution.</p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
