@@ -67,9 +67,7 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Software Engineering at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I&apos;m skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I&apos;ve ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">Hey, I'm Daniel, a software engineering student by day and a relentless self-learner by night. Crafting innovative solutions during the day, my nights are dedicated to pushing the boundaries of my development skills. Always up for a challenge, I thrive on continual growth and evolution.</p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
