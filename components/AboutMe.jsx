@@ -55,7 +55,7 @@ const AboutMe = () => {
     //1a
     return(
         <section className="text-white grid" id="aboutMe">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 mb-8 items-center">
                <div>
                     <Image
                         src="/AboutMe.png"
