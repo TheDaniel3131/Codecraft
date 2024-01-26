@@ -17,7 +17,7 @@ const achievementsList = [
 ];
 const AchievementsSection = () => {
     return(
-        <div className=" xl:gap-3 sm:py-3 xl:px-12">
+        <div className=" xl:gap-3 sm:py-3 xl:px-12 mt-5">
             <div className="border-[#33353F] border rounded-md py-8 px-16 flex flex-row items-center justify-between">
             {achievementsList.map((achievement, index) => {
                 return(
