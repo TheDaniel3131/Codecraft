@@ -23,7 +23,7 @@ const HeroSection = () => {
                 </span>
               </span>
               <br></br>
-              <span className="text-7xl">I&apos;m {/* Escape the single quote */}
+              <span className="text-7xl">I&apos;m a{/* Escape the single quote */}
               <TypeWritter
                 options={{
                     autoStart: true,
