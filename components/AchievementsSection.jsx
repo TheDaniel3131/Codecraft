@@ -6,8 +6,8 @@ const achievementsList = [
         value: "10+",
     },
     {
-        metric: "Awards",
-        value: "3+",
+        metric: "Competitions Attended",
+        value: "5+",
     },
     {
         metric: "Years",
