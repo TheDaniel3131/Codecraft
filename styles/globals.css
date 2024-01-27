@@ -25,6 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 
+  .scrolled-header {
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent white background */
+    backdrop-filter: blur(35px); /* Apply a blur effect */
+  }
+
 }
 
 * {
