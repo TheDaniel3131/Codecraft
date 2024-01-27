@@ -29,6 +29,15 @@ const TAB_DATA = [
             <li>APU x BOH CTF 2023</li>
             <li>Battle Of Hackers CTF 2023</li>
             <li>Wargames.my CTF 2023</li>
+            <li>BackdoorCTF 2023</li>
+            <li>niteCTF 2023</li>
+            <li>PotluckCTF 2023</li>
+            <li>ASIS CTF Finals 2023</li>
+            <li>IrisCTF 2024</li>
+            <li>MapnaCTF 2024</li>
+            <li>UofTCTF 2024</li>
+            <li>Real World CTF 2024</li>
+            <li>TetCTF 2024</li>
           </ul>
         ),
     },
