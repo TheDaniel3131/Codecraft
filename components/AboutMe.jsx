@@ -37,7 +37,7 @@ const TAB_DATA = [
         id: "education",
         content: (
           <ul className="list-disc pl-2">
-                <li>Asia Pacific University</li>
+                <li>Asia Pacific University of Technology & Innovation</li>
           </ul>
         ),
     }
