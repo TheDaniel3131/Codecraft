@@ -14,23 +14,23 @@ const projectData = [
     {
         id: 2,
         title: "LearningKids - An Online Learning Platform",
-        description: "My Personal Portfolio Website",
+        description: "LearningKids is an online learning platform designed to provide interactive and engaging educational content for children. With a wide range of subjects and topics, LearningKids aims to make learning fun and accessible for kids of all ages. Join us in creating a positive and enriching learning experience for young minds!",
         image: "/projects/clubdao.png",
         gitUrl: "https://github.com/TheDaniel3131/LearningKids"
     },
     {
         id: 3,
-        title: "FundChat",
-        description: "This is a project for APUBCC Sparkathon & Solana Hyperdrive.",
+        title: "My Personal Portfolio Website",
+        description: " This is my personal portfolio website. It is a website that showcases my skills and projects. It is also a website that I use to learn and practice my web development skills.",
         image: "/projects/FundChat.png",
-        gitUrl: "https://github.com/cheongyeechian/fundchat"
+        gitUrl: "https://github.com/TheDaniel3131/thedaniel3131.github.io"
     },
     {
         id: 4,
-        title: "Megamask",
-        description: "This is a project for ETH Online.",
+        title: "CLI Based Air Flight System - Python",
+        description: "This is a CLI based air flight system project written in Python. It is developed for ETH Online and aims to provide a command-line interface for managing flight bookings, checking flight schedules, and other related functionalities.",
         image: "/projects/megamask.png",
-        gitUrl: "https://github.com/megamask"
+        gitUrl: "https://github.com/TheDaniel3131/AirFlightSystem"
     },
 ];
 
