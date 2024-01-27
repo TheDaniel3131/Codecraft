@@ -31,26 +31,13 @@ const projectData = [
         description: "This is a project for ETH Online.",
         image: "/projects/megamask.png",
         gitUrl: "https://github.com/megamask"
-    }, {
-        id: 5,
-        title: "zkJom",
-        description: "This is a project fro ETHKL.",
-        image: "/projects/zkJom.png",
-        gitUrl: "https://github.com/trlau/zkJ0M"
-    }, {
-        id: 6,
-        title: "Attest Me",
-        description: "This is a project for ETH Global Superhack.",
-        image: "/projects/attestme.png",
-        gitUrl: "https://github.com/0xBenjamintan/attestMe"
-    }, 
-
+    },
 ];
 
 const Projects = () => {
     return (
         <div id="projects">
-            <div className="text-4xl font-semibold mb-8">My Projects</div>
+            <div className="text-4xl font-semibold mb-12">My Projects</div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-x-8 gap-y-4 md:gap-12 h-full">
                 {projectData.map((project) => (
                     <ProjectCard 
