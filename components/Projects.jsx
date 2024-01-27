@@ -5,18 +5,18 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
     {
         id: 1,
-        title: "LinkedOut & About",
-        description: "This is a project.",
+        title: "Barking Lot - Pet Adoption Website",
+        description: "Barking Lot is a pet adoption website that aims to connect potential pet owners with their perfect companions. The project is written in web programming languages. Our platform provides a user-friendly interface to browse and search for available pets, learn about their characteristics and needs, and easily apply for adoption. Join us in finding loving homes for these adorable animals!",
         image: "/projects/linkedout&about.png",
-        gitUrl: "https://github.com/APU-Blockchain-Cryptocurrency-Club/LinkedOutAndAbout"
+        gitUrl: "https://github.com/TheDaniel3131/BarkingLot"
 
     },
     {
         id: 2,
-        title: "ClubDAO",
-        description: "This is a project.",
+        title: "LearningKids - An Online Learning Platform",
+        description: "My Personal Portfolio Website",
         image: "/projects/clubdao.png",
-        gitUrl: "https://github.com/0xYudhishthra/ClubDAO"
+        gitUrl: "https://github.com/TheDaniel3131/LearningKids"
     },
     {
         id: 3,
