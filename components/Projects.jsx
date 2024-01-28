@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
     {
         id: 1,
-        title: "Barking Lot - Pet Adoption Website",
+        title: "Barking Lot - A Pet Adoption Website",
         description: "Barking Lot is a pet adoption website that aims to connect potential pet owners with their perfect companions. The project is written in web programming languages. Our platform provides a user-friendly interface to browse and search for available pets, learn about their characteristics and needs, and easily apply for adoption. Join us in finding loving homes for these adorable animals!",
         image: "/projects/project1.jpg",
         gitUrl: "https://github.com/TheDaniel3131/BarkingLot"
