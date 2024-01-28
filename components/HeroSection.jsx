@@ -62,11 +62,11 @@ const HeroSection = () => {
              
               <Link
                 href="https://drive.google.com/file/d/1KLTQOu91ZDNuBv3he3hEzrNRc2L96Ro3/view?usp=drive_link"
-                className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
+                className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400 mb-4">
                 <span className="text-xl text-white font-bold">Read My Resume</span>
               </Link>
           </motion.div>
-        <div className="col-span-4 md:col-span-4 place-self-center lg:mt-5 pt-0 lg:pt-5">
+        <div className="col-span-4 md:col-span-4 place-self-center lg:mt-6 pt-0 lg:pt-6 md:mb-4">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
