@@ -27,6 +27,8 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
+            <li>Software Developer & Web Designer Intern @ Pickles</li>
+            <li>APU Web Developer Intern</li>
             <li>APU x BOH CTF 2023</li>
             <li>Battle Of Hackers CTF 2023</li>
             <li>Wargames.my CTF 2023</li>
