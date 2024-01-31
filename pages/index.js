@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col ">
         <Head>
-          <title>Welcome To My Portfolio | DPTF</title>
+          <title>My Portfolio | DPTF</title>
           {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
         <main>
